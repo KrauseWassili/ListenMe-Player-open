@@ -21,7 +21,7 @@
 ---
 
 > Open Edition of ListenMe Player.  
-> Original project repository: https://github.com/fliteIn/flitein
+> Original project repository: https://github.com/fliteIn/ListenMe-Player
 
 ---
 
