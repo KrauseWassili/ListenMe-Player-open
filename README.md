@@ -5,7 +5,8 @@
 <h1 align="center">ListenMe Player — Open Edition</h1>
 
 <p align="center">
-  Advanced Flutter audio player for language learners, podcasters, and offline listening.<br>
+  Advanced Flutter audio player focused on precise playback control,
+  modular architecture and performance-oriented UI design.<br>
   Precision navigation • Silence analysis • Fully customizable UI
 </p>
 
@@ -31,12 +32,16 @@ This repository contains an **open (reduced) edition** of the project.
 Some private modules (premium logic, ads, Firebase configuration, service keys) are intentionally excluded.
 
 > 🎯 **Goal of the Open Edition**  
-> To showcase architecture design, UI/UX decisions, audio processing techniques,  
-> and the engineering approach behind building a complex Flutter-based audio player.
+> architectural decisions, state modeling, UI/UX trade-offs,
+> audio processing techniques and performance-oriented engineering
 
 
 
 ## ✨ Features
+
+The feature list below highlights the functional scope of the application.  
+The primary focus of this repository, however, is the underlying architecture,
+state management and custom UI engineering.
 
 <table> 
   <tr> 
@@ -114,6 +119,9 @@ Some private modules (premium logic, ads, Firebase configuration, service keys) 
 
 ## 🧱 Architecture
 
+The application is built around explicit state models and a clear separation
+of responsibilities, with a single root coordinator and domain-specific models.
+
 State models:
 
 - **AppModel** — root coordinator
@@ -135,12 +143,11 @@ Modular UI:
 
 ## ⚠️ Open Edition Status
 
-Some commercial and confidential modules (monetization, ads, Firebase configs)  
-are **not included** in this public version.
+As this is an Open Edition, some commercial and confidential modules
+(monetization, ads, Firebase configuration) are excluded.
 
-This means the project **may not compile** as a fully functional app.  
-The purpose of the repository is to demonstrate **architecture and UI**,  
-not to provide a production-ready build.
+The repository focuses on **architecture, state management and UI implementation**,
+rather than providing a fully production-ready build.
 
 ---
 
@@ -153,7 +160,7 @@ feel free to open an **Issue** or start a **Discussion** in the repository.
 
 ## 📲 Install the App
 
-You can install the full application on Google Play:
+The full application is available on Google Play:
 
 [<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
 alt="Get it on Google Play" height="80">](https://play.google.com/store/apps/details?id=com.listenme.player)
