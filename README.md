@@ -19,6 +19,11 @@
 
 ---
 
+> Open Edition of ListenMe Player.  
+> Original private repository: https://github.com/fliteIn/flitein
+
+---
+
 **ListenMe Player** is an advanced audio player built with Flutter, designed for language learners, podcasters, interview transcribers, and everyone who prefers listening to audio offline.  
 The application combines precise navigation tools, silence analysis, and deeply customizable UI.
 
