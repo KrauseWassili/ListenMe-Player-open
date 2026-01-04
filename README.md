@@ -21,19 +21,22 @@
 ---
 
 > Open Edition of ListenMe Player.  
-> Original private repository: https://github.com/fliteIn/flitein
+> Original project repository: https://github.com/fliteIn/flitein
 
 ---
 
-**ListenMe Player** is an advanced audio player built with Flutter, designed for language learners, podcasters, interview transcribers, and everyone who prefers listening to audio offline.  
-The application combines precise navigation tools, silence analysis, and deeply customizable UI.
+**ListenMe Player** is a cross-platform Flutter audio player designed for users
+who require fine-grained control over audio playback.
+The application combines precise navigation tools, silence analysis
+and a deeply customizable UI.
+
 
 This repository contains an **open (reduced) edition** of the project.  
 Some private modules (premium logic, ads, Firebase configuration, service keys) are intentionally excluded.
 
 > 🎯 **Goal of the Open Edition**  
-> architectural decisions, state modeling, UI/UX trade-offs,
-> audio processing techniques and performance-oriented engineering
+> To showcase architectural decisions, state modeling, UI/UX trade-offs,
+> audio processing techniques and performance-oriented engineering.
 
 
 
@@ -125,7 +128,7 @@ of responsibilities, with a single root coordinator and domain-specific models.
 State models:
 
 - **AppModel** — root coordinator
-- **PlaybackModel** — playback & JustAudio integration
+- **PlaybackModel** — playback logic and just_audio integration
 - **PlaylistModel** — playlist and source management
 - **AudioToLevelsModel** — PCM & silence analysis
 - **AppThemeColors** — theming system
